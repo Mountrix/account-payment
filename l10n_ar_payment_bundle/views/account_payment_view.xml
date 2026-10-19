@@ -24,7 +24,7 @@
    <record id="view_account_payment_from_bundle_form" model="ir.ui.view">
         <field name="name">account.payment.from payment.bundle.form</field>
         <field name="model">account.payment</field>
-        <field name="inherit_id" ref="account.view_account_payment_form"/>
+        <field name="inherit_id" ref="account_payment_pro.view_account_payment_form"/>
         <field name="priority">90</field>
         <field name="mode">primary</field>
         <field name="arch" type="xml">
